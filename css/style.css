@@ -33,18 +33,6 @@
 	color: #1b1c2d;
 	display: inline-block;
 }
-.video-background {
-	position: absolute;
-	z-index: -1;
-	width: 100%;
-	height: 100vh;
-	overflow: hidden;
-}
-
-.video-background video {
-	width: 100%;
-	height: 100%;
-}
 .container {
 	max-width: 1270px;
 	padding: 0 15px;
@@ -66,7 +54,7 @@ body {
 	background-color: #1b1c2d;
 }
 .main {
-	/* background-image: url('../img/bg.gif'); */
+	background-image: url('../img/bg.gif');
 	background-position: top;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -379,7 +367,7 @@ body {
 		margin-left: 60px;
 	}
 	.main {
-		/* background-image: url('../img/bg-mini.gif'); */
+		background-image: url('../img/bg-mini.webp');
 		background-position: left;
 	}
 	.main__btn {
