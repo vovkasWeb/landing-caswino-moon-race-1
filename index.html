@@ -10,6 +10,11 @@
 	</head>
 	<body>
 		<main class="main">
+			<div class="video-background">
+				<video id="bgVideo" autoplay muted loop playsinline>
+					<source class="source" src="./img/bg.webm" type="video/webm"/>
+				</video>
+			</div>
 			<div class="container">
 				<div class="main__wrapper">
 					<a href="https://cswn.cc/xCrvTv" class="logo item_click">
@@ -1930,6 +1935,20 @@
 			// Вызываем при загрузке и изменении размера
 			setVh()
 			window.addEventListener('resize', setVh)
+
+			function updateVideoSource() {
+				const video = document.getElementById('bgVideo')
+				const source = video.querySelector('source')
+
+				if (window.innerWidth <= 450) {
+					source.setAttribute('src', './img/bg-mini.webm')
+				} else {
+					source.setAttribute('src', './img/bg.webm')
+				}
+				video.load() // обновить видео
+			}
+			updateVideoSource()
+			window.addEventListener('resize', updateVideoSource)
 		</script>
 	</body>
 </html>
