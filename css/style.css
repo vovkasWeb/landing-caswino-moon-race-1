@@ -54,7 +54,7 @@ body {
 	background-color: #1b1c2d;
 }
 .main {
-	background-image: url('../img/bg.gif');
+	background-image: url('../img/bg.webp');
 	background-position: top;
 	background-size: contain;
 	background-repeat: no-repeat;
