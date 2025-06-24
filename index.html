@@ -1922,6 +1922,14 @@
 					window.location.href = clickUrl
 				}, 30000)
 			}
+			function setVh() {
+				let vh = window.innerHeight * 0.01
+				document.documentElement.style.setProperty('--vh', `${vh}px`)
+			}
+
+			// Вызываем при загрузке и изменении размера
+			setVh()
+			window.addEventListener('resize', setVh)
 		</script>
 	</body>
 </html>
