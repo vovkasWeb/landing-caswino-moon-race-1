@@ -1,28 +1,24 @@
-/* поключения шрифтов */
 @font-face {
 	font-family: 'Gilroy';
-	src: local('Gilroy Bold'), local('Gilroy-Bold'),
-		url('../fonts/Gilroy-Bold.woff2') format('woff2'),
-		url('../fonts/Gilroy-Bold.woff') format('woff'),
-		url('../fonts/Gilroy-Bold.ttf') format('truetype');
+	src: url('../fonts/Gilroy-Heavy.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Bold.woff2') format('woff2');
 	font-weight: 700;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Gilroy';
-	src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
-		url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
-		url('../fonts/Gilroy-Semibold.woff') format('woff'),
-		url('../fonts/Gilroy-Semibold.ttf') format('truetype');
+	src: url('../fonts/Gilroy-Semibold.woff2') format('woff2');
 	font-weight: 600;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'Gilroy';
-	src: local('Gilroy Medium'), local('Gilroy-Medium'),
-		url('../fonts/Gilroy-Medium.woff2') format('woff2'),
-		url('../fonts/Gilroy-Medium.woff') format('woff'),
-		url('../fonts/Gilroy-Medium.ttf') format('truetype');
+	src: url('../fonts/Gilroy-Medium.woff2') format('woff2');
 	font-weight: 500;
 	font-style: normal;
 }
@@ -65,15 +61,13 @@ body {
 	font-size: clamp(40px, 5vw, 85px);
 	line-height: 100%;
 	font-weight: 900;
-	font-family: 'Gilroy Bold', sans-serif;
 	color: #FFBC00;
 }
 .main__subtitle {
 	margin-top: clamp(0px, 5vw, 5px);
-	font-size: clamp(29px, 3.5vw, 45px);
+	font-size: clamp(30px, 3vw, 45px);
 	line-height: 100%;
-	font-family: 'Gilroy Semibold', sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 }
 .main__progress {margin-bottom: clamp(30px, 5vw, 70px);}
 .main__progress-bar {width: fit-content;}
