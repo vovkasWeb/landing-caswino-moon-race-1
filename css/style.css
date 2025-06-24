@@ -352,7 +352,7 @@ body {
 	.main {
 		background-image: url(../img/bg-mini.gif);
 		background-position: left;
-		height: 100vh;
+		height: 90vh;
 	}
 	.main__btn {
 		margin: auto auto 10px auto;
