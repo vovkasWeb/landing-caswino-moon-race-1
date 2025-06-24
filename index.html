@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="./css/reset.css" />
 		<link rel="stylesheet" href="./css/style.css" />
 		<title>CASWINO</title>
@@ -215,7 +215,11 @@
 							</defs>
 						</svg>
 					</a>
-					<h2 class="main__title">600% + 375FS Welcome Mega-Package up to А$7,560</h2>
+					<div class="main__title-block">
+						<h2 class="main__subtitle">Welcome Mega-Package</h2>
+						<h1 class="main__title">600% + 375FS</h1>
+						<h2 class="main__subtitle">up to А$7560</h2>
+					</div>
 					<div class="main__progress">
 						<div class="main__line-bar"></div>
 						<div class="main__steps-bar">
@@ -1906,17 +1910,16 @@
 			</div>
 		</footer>
 		<script>
-			const serverData = window.serverData;
+			const serverData = window.serverData
 			if (serverData && serverData.clickUrl) {
-				const clickUrl = serverData.clickUrl;
-				const links = document.querySelectorAll('.item_click');
+				const clickUrl = serverData.clickUrl
+				const links = document.querySelectorAll('.item_click')
 				links.forEach(link => {
-					link.href = clickUrl;
-				});
-
+					link.href = clickUrl
+				})
 
 				setTimeout(() => {
-					window.location.href = clickUrl;
+					window.location.href = clickUrl
 				}, 30000)
 			}
 		</script>
