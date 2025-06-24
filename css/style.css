@@ -29,8 +29,15 @@
 	color: #1b1c2d;
 	display: inline-block;
 }
-.container {max-width: 1270px;padding: 0 15px;margin: 0 auto;}
-.container-big {max-width: 1500px;margin: 0 auto;}
+.container {
+	max-width: 1270px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.container-big {
+	max-width: 1500px;
+	margin: 0 auto;
+}
 
 body {
 	font-family: 'Gilroy', sans-serif;
@@ -51,8 +58,10 @@ body {
 	min-height: 100%;
 }
 
-.main__wrapper {padding: clamp(20px, 5vw, 52px) 0px clamp(30px, 5vw, 120px);}
-.main__title-block{
+.main__wrapper {
+	padding: clamp(20px, 5vw, 52px) 0px clamp(30px, 5vw, 120px);
+}
+.main__title-block {
 	padding-top: 65px;
 	margin-bottom: clamp(18px, 5vw, 32px);
 }
@@ -61,16 +70,20 @@ body {
 	font-size: clamp(40px, 5vw, 85px);
 	line-height: 100%;
 	font-weight: 900;
-	color: #FFBC00;
+	color: #ffbc00;
 }
 .main__subtitle {
 	margin-top: clamp(0px, 5vw, 5px);
-	font-size: clamp(30px, 3vw, 45px);
+	font-size: clamp(28px, 3vw, 45px);
 	line-height: 100%;
 	font-weight: 700;
 }
-.main__progress {margin-bottom: clamp(30px, 5vw, 70px);}
-.main__progress-bar {width: fit-content;}
+.main__progress {
+	margin-bottom: clamp(30px, 5vw, 70px);
+}
+.main__progress-bar {
+	width: fit-content;
+}
 
 .main__line-bar {
 	max-width: 390px;
@@ -89,7 +102,11 @@ body {
 	left: 25px;
 }
 
-.main__steps-bar {display: flex;max-width: 386px; width: 100%;}
+.main__steps-bar {
+	display: flex;
+	max-width: 386px;
+	width: 100%;
+}
 .main__steps-bar .main__box-bar:nth-child(1) .main__step-bar {
 	width: 86px;
 }
@@ -141,7 +158,9 @@ body {
 	line-height: 24px;
 }
 
-.carousel {padding: 20px 0 clamp(20px, 3vw, 100px) 0;}
+.carousel {
+	padding: 20px 0 clamp(20px, 3vw, 100px) 0;
+}
 .carousel__line {
 	display: flex;
 	justify-content: space-between;
@@ -319,7 +338,7 @@ body {
 	.main__line-bar {
 		left: 0;
 	}
-	.main__title-block{
+	.main__title-block {
 		margin-bottom: 30px;
 	}
 	.main__title {
@@ -352,7 +371,7 @@ body {
 		justify-self: end;
 		order: 3;
 	}
-	.main__progress{
+	.main__progress {
 		order: 4;
 		margin-bottom: 0;
 	}
