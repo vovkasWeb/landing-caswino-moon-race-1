@@ -335,6 +335,13 @@ body {
 		display: flex;
 		flex-direction: column;
 	}
+	.main__title {
+		font-size: 60px;
+	}
+	.main__subtitle {
+		font-size: 32px;
+	}
+
 	.main__progress {
 		display: grid;
 		place-items: center; /* объединяет align-items и justify-items */
@@ -398,6 +405,12 @@ body {
 	.main__steps-bar {
 		max-width: 350px;
 	}
+	.main__title {
+		font-size: 56px;
+	}
+	.main__subtitle {
+		font-size: 30px;
+	}
 }
 @media (max-width: 385px) {
 	.main__steps-bar .main__box-bar:nth-child(2) {
@@ -409,6 +422,12 @@ body {
 	.main__title {
 		margin: 0 auto;
 		text-align: center;
+	}
+	.main__title {
+		font-size: 54px;
+	}
+	.main__subtitle {
+		font-size: 28px;
 	}
 }
 @media (max-width: 365px) {
