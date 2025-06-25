@@ -337,8 +337,10 @@ body {
 	}
 	.main__title {
 		font-size: 60px;
+		margin-top: 0px;
 	}
 	.main__subtitle {
+		margin-top: 0px;
 		font-size: 32px;
 	}
 
@@ -353,10 +355,7 @@ body {
 		margin-bottom: 30px;
 		padding-top: 10px;
 	}
-	.main__title {
-		margin: 0 auto;
-		text-align: center;
-	}
+
 	.main__steps-bar {
 		text-align: right;
 	}
