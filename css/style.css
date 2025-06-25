@@ -71,14 +71,14 @@ body {
 }
 .main__title {
 	margin-top: clamp(0px, 5vw, 5px);
-	font-size: clamp(40px, 5vw, 85px);
+	font-size: clamp(50px, 5vw, 85px);
 	line-height: 100%;
 	font-weight: 900;
 	color: #ffbc00;
 }
 .main__subtitle {
 	margin-top: clamp(0px, 5vw, 5px);
-	font-size: clamp(28px, 3vw, 45px);
+	font-size: clamp(26px, 3vw, 45px);
 	line-height: 100%;
 	font-weight: 700;
 }
@@ -369,6 +369,9 @@ body {
 	.main {
 		background-image: url('../img/bg-mini.webp');
 		background-position: left;
+		background-position-y: 130px;
+
+
 	}
 	.main__btn {
 		margin: auto auto 10px auto;
