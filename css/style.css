@@ -351,6 +351,7 @@ body {
 	}
 	.main__title-block {
 		margin-bottom: 30px;
+		padding-top: 10px;
 	}
 	.main__title {
 		margin: 0 auto;
@@ -389,9 +390,6 @@ body {
 	}
 	.main__steps-bar .main__box-bar:nth-child(3) {
 		margin-left: 45px;
-	}
-	.main__title-block {
-		padding-top: 5px;
 	}
 	.logo svg {
 		width: 120px;
